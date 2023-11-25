@@ -24,14 +24,16 @@ const Main = () => {
                 text-[10em]
                 font-bold
                 text-white
-            ">Hi! I'm Kevin
+            ">
+                Hi! I&apos;m Kevin
             </h1>
             <TextAndStar  text="FULL STACK SOFTWARE ENGINEER" title={false}/>
             <h1 className="
                 text-[3em]
                 text-white
                 mt-[20px]
-            ">My Expertise
+            ">
+                My Expertise
             </h1>
             <div className="
                 grid
