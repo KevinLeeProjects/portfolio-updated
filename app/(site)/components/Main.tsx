@@ -24,8 +24,8 @@ const Main = () => {
                 text-[10em]
                 font-bold
                 text-white
-                ">
-                    Hi! I'm Kevin
+            ">
+                Hi! I'm Kevin
             </h1>
             <TextAndStar  text="FULL STACK SOFTWARE ENGINEER" title={false}/>
             <h1 className="
