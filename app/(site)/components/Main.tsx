@@ -10,8 +10,9 @@ const expertise = [
 const Main = () => {
     return (
         <div className="
+            hidden
             mt-[100px]
-            flex
+            md:flex
             flex-col
             justify-between
             w-[90vw]
@@ -48,7 +49,7 @@ const Main = () => {
                         justify-center
                         text-white
                         border
-                        rounded-lg
+                        rounded-xl
                         p-6
                         text-center
                     ">

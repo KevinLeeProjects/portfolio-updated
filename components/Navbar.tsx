@@ -55,8 +55,69 @@ const Navbar = () => {
             
                 
             {/* Mobile */}
-            <div>
-
+            <div style={{ zIndex: 3 }}
+                className="
+                md:hidden
+                group
+                fixed
+                flex
+                flex-col
+                items-end
+                justify-end
+                h-fit
+                w-full
+                max-h-[100px]
+                bg-[#483D8B]
+            ">
+                <div className="
+                    mr-[20px]
+                    mt-[20px]
+                    mb-[20px]
+                ">
+                    <div className="
+                        h-[8px]
+                        w-[30px]
+                        bg-gray-400
+                        rounded-xl
+                        mt-[5px]
+                    ">
+                    </div>
+                    <div className="
+                        h-[8px]
+                        w-[30px]
+                        bg-gray-400
+                        rounded-xl
+                        mt-[1px]
+                    ">
+                    </div>
+                    <div className="
+                        h-[8px]
+                        w-[30px]
+                        bg-gray-400
+                        rounded-xl
+                        mt-[1px]
+                    ">
+                    </div>
+                
+                    
+                </div>
+                {/* <button className="hover:opacity-75 w-[100px] mt-[10px] ml-4" >
+                    <img src="/images/KLLogoWhite.png" alt="banana with face"/>
+                </button>
+                <div className="
+                    relative
+                    flex
+                    gap-10
+                    text-white
+                    mr-[10px]
+                    text-2xl
+                ">
+                {navbarTitles.map((item) => (
+                    <button key={item.name} className="hover:bg-[#483D8B] py-[35px] px-[20px]">
+                        {item.name}
+                    </button>
+                ))}
+                </div> */}
             </div>
         </>
     );
