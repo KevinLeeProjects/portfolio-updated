@@ -107,7 +107,7 @@ const Main = () => {
                     md:grid
                     md:grid-cols-4
                     md:gap-4
-                    mt-[50px]
+                    mt-[20px]
                 ">
                     {expertise.map((items) => (
                         <div key={items.title} className="
