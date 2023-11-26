@@ -1,8 +1,7 @@
 import Navbar from '@/components/Navbar';
-import Main from './components/Main';
 import Transition from "@/components/Transition";
 
-export default function Home() {
+export default function Projects() {
   return (
     <div  className="
       flex
@@ -18,7 +17,6 @@ export default function Home() {
         "
           style={{zIndex: 2}}
         >
-          <Main />
         </div>
       </Transition>
     </div>

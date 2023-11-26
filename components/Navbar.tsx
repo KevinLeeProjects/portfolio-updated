@@ -44,13 +44,15 @@ const Navbar = () => {
                 w-full
                 max-h-[100px]
                 ">
-                <button className="hover:opacity-75 w-[100px] mt-[10px] ml-4" >
                     <Link
                         href="/"
                     >
-                    </Link>
-                    <img src="/images/KLLogoWhite.png" alt="banana with face"/>
-                </button>
+                    <button className="hover:opacity-75 w-[100px] mt-[10px] ml-4" >
+                        
+                        
+                        <img src="/images/KLLogoWhite.png" alt="banana with face"/>
+                    </button>
+                </Link>
                 <div className="
                     relative
                     flex
@@ -135,7 +137,7 @@ const Navbar = () => {
                                 "
                                     style={{zIndex: 4}}
                                 >
-                                    <Link href="/">
+                                    <Link href="/" className="mb-[30px]">
                                         <button key={"home"} className="hover:bg-[#483D8B] mb-[20px]">
                                             Home
                                         </button>
