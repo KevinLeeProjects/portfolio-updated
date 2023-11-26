@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Transition from "@/components/Transition";
+import ProjectsPage from './components/ProjectsPage';
 
 export default function Projects() {
   return (
@@ -17,6 +18,7 @@ export default function Projects() {
         "
           style={{zIndex: 2}}
         >
+          <ProjectsPage />
         </div>
       </Transition>
     </div>
