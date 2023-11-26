@@ -116,7 +116,7 @@ const Navbar = () => {
                             <div className="
                                 h-[5px]
                                 w-[35px]
-                                bg-white
+                                bg-[#B19CD9]
                                 mt-[4px]
                                 rounded-xl
                                 transition-all
