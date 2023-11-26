@@ -6,7 +6,7 @@ interface TextAndStarProps {
     title: boolean
 }
 
-const TextAndStar: React.FC<TextAndStarProps> = ({
+const TextAndStarMobile: React.FC<TextAndStarProps> = ({
     text,
     title
 }) => {
@@ -19,19 +19,19 @@ const TextAndStar: React.FC<TextAndStarProps> = ({
             <div className="
                 mr-[20px]
             ">
-                <Star mobile={false}/>
+                <Star mobile={true}/>
             </div>
             {title ? (
                 <h1 className="
                     text-white
-                    text-[5em]
+                    text-[3em]
                 ">
                     {text}
                 </h1>
             ) : (
                 <h1 className="
                     text-white
-                    text-[3em]
+                    text-[2em]
                 ">
                     {text}
                 </h1>
@@ -40,10 +40,10 @@ const TextAndStar: React.FC<TextAndStarProps> = ({
             <div className="
                 ml-[20px]
             ">
-                <Star mobile={false}/>
+                <Star mobile={true}/>
             </div>
         </div>
     );
 };
 
-export default TextAndStar;
+export default TextAndStarMobile;
