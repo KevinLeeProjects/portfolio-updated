@@ -1,11 +1,22 @@
+"use client";
+
+import Link from "next/link";
+import { useState } from "react";
+
 const Navbar = () => {
 
+    const [expanded, setExpanded] = useState(false);
+
+    const toggleExpansion = () => {
+      setExpanded(!expanded);
+    };
+
     const navbarTitles = [
-        {name: "Projects"},
-        {name: "Games"},
-        {name: "Resume"},
-        {name: "About Me"},
-        {name: "Contact"},
+        {name: "Projects", href: '/projects'},
+        {name: "Games", href: "/games"},
+        {name: "Resume", href: "/resume"},
+        {name: "About Me", href: "/about"},
+        {name: "Contact", href: "/contact"},
     ]
 
     return (
@@ -34,6 +45,10 @@ const Navbar = () => {
                 max-h-[100px]
                 ">
                 <button className="hover:opacity-75 w-[100px] mt-[10px] ml-4" >
+                    <Link
+                        href="/"
+                    >
+                    </Link>
                     <img src="/images/KLLogoWhite.png" alt="banana with face"/>
                 </button>
                 <div className="
@@ -45,9 +60,11 @@ const Navbar = () => {
                     text-2xl
                 ">
                 {navbarTitles.map((item) => (
-                    <button key={item.name} className="hover:bg-[#483D8B] py-[35px] px-[20px]">
+                    <Link href={item.href} key={item.name}>
+                    <button className="hover:bg-[#483D8B] py-[35px] px-[20px]">
                         {item.name}
                     </button>
+                    </Link>
                 ))}
                 </div>
                 
@@ -61,46 +78,112 @@ const Navbar = () => {
                 group
                 fixed
                 flex
-                flex-col
                 items-end
                 justify-end
                 h-fit
                 w-full
-                max-h-[100px]
-                bg-[#483D8B]
             ">
                 <div className="
                     mr-[20px]
                     mt-[20px]
                     mb-[20px]
-                ">
-                    <div className="
-                        h-[8px]
-                        w-[30px]
-                        bg-gray-400
-                        rounded-xl
-                        mt-[5px]
-                    ">
-                    </div>
-                    <div className="
-                        h-[8px]
-                        w-[30px]
-                        bg-gray-400
-                        rounded-xl
-                        mt-[1px]
-                    ">
-                    </div>
-                    <div className="
-                        h-[8px]
-                        w-[30px]
-                        bg-gray-400
-                        rounded-xl
-                        mt-[1px]
-                    ">
-                    </div>
-                
+                "
+                    onClick={toggleExpansion}
+                >
+                    
+                    {expanded ? (
+                        <div className="
+                            h-[90dvh]
+                        ">
+                            <div className="
+                                h-[5px]
+                                w-[35px]
+                                mt-[5px]
+                                bg-black
+                                navBar_topBunAnimation
+                                rounded-xl
+                            ">
+                            </div>
+                            <div className="
+                                h-[5px]
+                                w-[35px]
+                                bg-black
+                                navBar_middleBunAnimation
+                                mt-[4px]
+                                rounded-xl
+                            ">
+                            </div>
+                            <div className="
+                                h-[5px]
+                                w-[35px]
+                                bg-white
+                                mt-[4px]
+                                rounded-xl
+                                transition-all
+                                duration-500
+                                ease-in-out
+                                pt-[150px]
+                                "
+                                style={{ width: '90vw', height: '100%', zIndex: 1 }}
+                            >
+                                <div className="
+                                    flex
+                                    flex-col
+                                    text-black
+                                    text-2xl
+                                    items-center
+                                "
+                                    style={{zIndex: 4}}
+                                >
+                                    <Link href="/">
+                                        <button key={"home"} className="hover:bg-[#483D8B] mb-[20px]">
+                                            Home
+                                        </button>
+                                    </Link>
+                                    {navbarTitles.map((item) => (
+                                        <Link href={item.href} key={item.name} className="hover:bg-[#483D8B] mb-[20px]">
+                                            <button>
+                                                {item.name}
+                                            </button>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    ) : (
+                        <div>
+                            <div className="
+                                h-[5px]
+                                w-[35px]
+                                bg-white
+                                rounded-xl
+                                mt-[5px]
+                            "
+                            >
+                            </div>
+                            <div className="
+                                h-[5px]
+                                w-[35px]
+                                bg-white
+                                rounded-xl
+                                mt-[4px]
+                            "
+                            >
+                            </div>
+                            <div className="
+                                h-[5px]
+                                w-[35px]
+                                bg-white
+                                rounded-xl
+                                mt-[4px]
+                            "
+                            >
+                            </div>
+                        </div>
+                    )}
                     
                 </div>
+                
                 {/* <button className="hover:opacity-75 w-[100px] mt-[10px] ml-4" >
                     <img src="/images/KLLogoWhite.png" alt="banana with face"/>
                 </button>
@@ -117,7 +200,7 @@ const Navbar = () => {
                         {item.name}
                     </button>
                 ))}
-                </div> */}
+                </div>  */}
             </div>
         </>
     );

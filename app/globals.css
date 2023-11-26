@@ -20,3 +20,38 @@ body,
 .pulse {
   animation: pulse 1.5s infinite;
 }
+
+.expanding-div {
+  width: 100px; /* Set your initial width */
+  height: 100px; /* Set your initial height */
+  background-color: #3490dc; /* Set your desired background color */
+  transition: width 2s ease, height 2s ease; /* Specify the transition properties */
+}
+
+@keyframes navBar_topBunAnimation {
+  0% {
+      transform: rotate(0deg) translateX(1vw) translateY(0vw);
+  }
+
+  100% {
+      transform: translateX(40vw) translateY(10vw) rotate(45deg);
+  }
+}
+
+.navBar_topBunAnimation {
+  animation: navBar_topBunAnimation 1s forwards;
+}
+
+@keyframes navBar_middleBunAnimation {
+  0% {
+      transform: rotate(0deg) translateX(2vw) translateY(0vw);
+  }
+
+  100% {
+      transform: translateX(40vw) translateY(8vw) rotate(-45deg)
+  }
+}
+
+.navBar_middleBunAnimation {
+  animation: navBar_middleBunAnimation 1s forwards;
+}
