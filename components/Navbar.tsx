@@ -43,6 +43,7 @@ const Navbar = () => {
                 h-fit
                 w-full
                 max-h-[100px]
+                bg-[#2E283E]
                 ">
                     <Link
                         href="/"
@@ -84,6 +85,7 @@ const Navbar = () => {
                 justify-end
                 h-fit
                 w-full
+                bg-[#2E283E]
             ">
                 <div className="
                     mr-[20px]
@@ -95,7 +97,7 @@ const Navbar = () => {
                     
                     {expanded ? (
                         <div className="
-                            h-[90dvh]
+                            h-[calc(95dvh-20px)]
                         ">
                             <div className="
                                 h-[5px]
