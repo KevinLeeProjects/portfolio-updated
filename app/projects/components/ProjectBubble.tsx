@@ -90,8 +90,68 @@ const ProjectBubble: React.FC<ProjectBubbleProps> = ({
                     </div>
                 </Link>
             ) : (
-                <div>
-                </div>
+                <Link href={href}>
+                    <div className="
+                        flex
+                        flex-col
+                        transition-transform
+                        transform
+                        group
+                        w-[90vw]
+                        rounded-3xl
+                        overflow-hidden
+                        hover:cursor-pointer
+                        mb-[20px]
+                    ">
+                        <img src={imgSrc} className="
+                            group-hover:scale-110 
+                            max-w-full
+                            w-[100%]
+                        "
+                            style={{zIndex: 1}}
+                        />
+                        <div className="
+                            bg-[#483D8B]
+                            w-[100%]
+                            h-fit
+                            py-[20px]
+                            text-center
+                            flex
+                            flex-col
+                            text-white
+                            items-center
+                            justify-center
+                        "
+                            style={{zIndex: 2}}
+                        >
+                            <div className="
+                                flex
+                                items-center
+                                justify-center
+                            ">
+                                <h1 className="
+                                    text-xl
+                                ">
+                                    {title}
+                                </h1>
+                            </div>
+                            <div className="
+                                text-sm
+                                mt-[3dvh]
+                                flex
+                                justify-center
+                                flex-wrap
+                                gap-4
+                                w-[90%]
+                            "
+                            >
+                                {skills.map((skill) => (
+                                    <SkillBubble skill={skill} key={skill}/>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </Link>
             )}
         </>
     )

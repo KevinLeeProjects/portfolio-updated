@@ -1,5 +1,7 @@
 import TextAndStar from "@/components/TextAndStar";
 import ProjectBubble from "./ProjectBubble";
+import TextAndStarMobile from "@/components/TextAndStarMobile";
+import Star from "@/components/Star";
 
 const projects = [
     {title: "Portfolio", imgSrc: "/images/portfolio/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "C#", "ASP .NET", "RESTful API"], href: "/portfolio"},
@@ -58,8 +60,58 @@ const ProjectsPage = () => {
             {/* Mobile */}
             <div className="
                 md:hidden
+                mt-[100px]
+                sm:flex
+                flex-col
+                justify-between
+                w-[100vw]
+                items-center
+                text-center
+                h-fit
             ">
-
+                <h1 className="
+                    w-[100vw]
+                    text-[2.25em]
+                    font-bold
+                    text-white
+                    mt-[20px]
+                ">
+                    Notable Projects
+                </h1>
+                <div className="
+                    w-[95vw]
+                    ml-[2.5vw]
+                    flex
+                    text-center
+                    items-center
+                    justify-center
+                    mt-[25px]
+                ">
+                    <div>
+                        <Star mobile={true}/>
+                    </div>
+                    <h1 className="
+                        text-white
+                        text-lg
+                    ">
+                        {"These are my projects! More info can be found by clicking on them"}
+                    </h1>
+                    <div>
+                        <Star mobile={true}/>
+                    </div>
+                </div>
+                <div className="
+                    flex
+                    flex-col
+                    items-center
+                    justify-center
+                    mt-[10dvh]
+                    mb-[40px]
+                ">
+                    {projects.map((items) => (
+                        <ProjectBubble key={items.title} desktop={false} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/projects/${items.href}`}/>
+                    ))}
+                </div>
             </div>
         </div>
     );
