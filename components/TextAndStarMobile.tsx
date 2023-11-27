@@ -15,6 +15,7 @@ const TextAndStarMobile: React.FC<TextAndStarProps> = ({
             flex
             items-center
             justify-between
+            w-[100%]
         ">
             <div className="
                 mr-[20px]

@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Transition from "@/components/Transition";
+import AboutMePage from './components/AboutMePage';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         "
           style={{zIndex: 2}}
         >
+          <AboutMePage />
         </div>
       </Transition>
     </div>
