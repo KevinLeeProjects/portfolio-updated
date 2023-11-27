@@ -42,30 +42,30 @@ const AboutMePage = () => {
                         w-[45vw]
                     ">
                         <h4 className="">
-                            <span>Hi! I'm Kevin and I'm a full stack software engineer! 
-                            I'm an avid gamer and programmer who likes to read and listen to music in my free time.</span></h4>
+                            <span>{"Hi! I'm Kevin and I'm a full stack software engineer!"} 
+                            {"I'm an avid gamer and programmer who likes to read and listen to music in my free time."}</span></h4>
                         <br></br>
                         <h4 className="">
-                            <span>I have experience using a variety of languages, frameworks, and tools. 
-                            I started programming by making games as a hobby and have since gone into web development and software engineering in general.
-                            I have the most experience using <span className="aboutMe_languages">HTML, CSS, JavaScript, React.js, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!</span></span>
+                            <span>{"I have experience using a variety of languages, frameworks, and tools."} 
+                            {"I started programming by making games as a hobby and have since gone into web development and software engineering in general."}
+                            {"I have the most experience using "}<span className="text-blue-400">{"HTML, CSS, JavaScript, React, Next.js, Tailwind, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!"}</span></span>
                         </h4>
                         <br></br>
                         <h4 className="">
-                            <span>In my free time, I enjoy playing games with my friends. 
-                            I mainly play </span>
-                            <a href="https://tracker.gg/valorant/profile/riot/BipoLeksh%23NA1/overview">Valorant (Gold 1)</a>
-                            <span>, </span>
-                            <a href="https://apex.tracker.gg/apex/profile/origin/BipoLeksh/overview">Apex Legends (Rookie 1)</a>
-                            <span>, </span>
-                            <a href="https://lolchess.gg/profile/na/bipoleksh/set9.5">TFT (Gold 3 and climbing)</a>
-                            <span>, and </span>
-                            <a href="https://www.op.gg/summoners/na/BipoLeksh">League of Legends (Plat 4)</a>
-                            <span>, but I have knowledge of a plethora of other games and would love to talk to you about any of them!</span>
+                            <span>{"In my free time, I enjoy playing games with my friends. "} 
+                            {"I mainly play "}</span>
+                            <a href="https://tracker.gg/valorant/profile/riot/BipoLeksh%23NA1/overview">{"Valorant (Gold 1)"}</a>
+                            <span>{", "}</span>
+                            <a href="https://apex.tracker.gg/apex/profile/origin/BipoLeksh/overview">{"Apex Legends (Rookie 1)"}</a>
+                            <span>{", "}</span>
+                            <a href="https://lolchess.gg/profile/na/bipoleksh/set9.5">{"TFT (Gold 3 and climbing)"}</a>
+                            <span>{", and "}</span>
+                            <a href="https://www.op.gg/summoners/na/BipoLeksh">{"League of Legends (Plat 4)"}</a>
+                            <span>{", but I have knowledge of a plethora of other games and would love to talk to you about any of them!"}</span>
                         </h4>
                         <br></br>
                         <h4 className="">
-                            You can find all the ways to contact me and check out my GitHub on the Contact page!
+                            {"You can find all the ways to contact me and check out my GitHub on the Contact page!"}
                         </h4>
                     </div>
                     <div className="
@@ -115,30 +115,30 @@ const AboutMePage = () => {
                         w-[90vw]
                     ">
                         <h4 className="">
-                            <span>Hi! I'm Kevin and I'm a full stack software engineer! 
-                            I'm an avid gamer and programmer who likes to read and listen to music in my free time.</span></h4>
+                            <span>{"Hi! I'm Kevin and I'm a full stack software engineer!"} 
+                            {"I'm an avid gamer and programmer who likes to read and listen to music in my free time."}</span></h4>
                         <br></br>
                         <h4 className="">
-                            <span>I have experience using a variety of languages, frameworks, and tools. 
-                            I started programming by making games as a hobby and have since gone into web development and software engineering in general.
-                            I have the most experience using <span className="aboutMe_languages">HTML, CSS, JavaScript, React.js, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!</span></span>
+                            <span>{"I have experience using a variety of languages, frameworks, and tools. "}
+                            {"I started programming by making games as a hobby and have since gone into web development and software engineering in general."}
+                            {"I have the most experience using "}<span className="text-blue-400">{"HTML, CSS, JavaScript, React.js, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!"}</span></span>
                         </h4>
                         <br></br>
                         <h4 className="">
-                            <span>In my free time, I enjoy playing games with my friends. 
-                            I mainly play </span>
-                            <a href="https://tracker.gg/valorant/profile/riot/BipoLeksh%23NA1/overview">Valorant (Gold 1)</a>
-                            <span>, </span>
-                            <a href="https://apex.tracker.gg/apex/profile/origin/BipoLeksh/overview">Apex Legends (Rookie 1)</a>
-                            <span>, </span>
-                            <a href="https://lolchess.gg/profile/na/bipoleksh/set9.5">TFT (Gold 3 and climbing)</a>
-                            <span>, and </span>
-                            <a href="https://www.op.gg/summoners/na/BipoLeksh">League of Legends (Plat 4)</a>
-                            <span>, but I have knowledge of a plethora of other games and would love to talk to you about any of them!</span>
+                            <span>{"In my free time, I enjoy playing games with my friends."} 
+                            {"I mainly play "}</span>
+                            <a href="https://tracker.gg/valorant/profile/riot/BipoLeksh%23NA1/overview">{"Valorant (Gold 1)"}</a>
+                            <span>{", "}</span>
+                            <a href="https://apex.tracker.gg/apex/profile/origin/BipoLeksh/overview">{"Apex Legends (Rookie 1)"}</a>
+                            <span>{", "}</span>
+                            <a href="https://lolchess.gg/profile/na/bipoleksh/set9.5">{"TFT (Gold 3 and climbing)"}</a>
+                            <span>{", and "}</span>
+                            <a href="https://www.op.gg/summoners/na/BipoLeksh">{"League of Legends (Plat 4)"}</a>
+                            <span>{", but I have knowledge of a plethora of other games and would love to talk to you about any of them!"}</span>
                         </h4>
                         <br></br>
                         <h4 className="">
-                            You can find all the ways to contact me and check out my GitHub on the Contact page!
+                            {"You can find all the ways to contact me and check out my GitHub on the Contact page!"}
                         </h4>
                         <div className="
                             w-[90vw]
