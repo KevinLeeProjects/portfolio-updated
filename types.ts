@@ -6,7 +6,7 @@ export interface FormData {
 
 export interface Project {
     route: string;
-    [key: string]: string; // This allows any string key with string values
+    [key: string]: string; 
 }
 
 export interface LoggedIn {
