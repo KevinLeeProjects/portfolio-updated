@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Rubik } from 'next/font/google'
 import './globals.css'
 
+require('dotenv').config();
+
 const font = Rubik({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
