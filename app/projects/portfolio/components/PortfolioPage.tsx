@@ -116,11 +116,11 @@ const PortfolioPage = () => {
                         </h1>
                     </a>
                 </div>
-                <div className="w-[75vw] md:w-[90vw] flex flex-col items-start text-start text-white mt-[50px] md:mt-[100px]">
-                     <h1 className="font-bold text-3xl md:text-5xl">
+                <div className="w-[75vw] md:w-[50vw] flex flex-col items-center text-start text-white mt-[50px] md:mt-[100px]">
+                    <h1 className="font-bold text-3xl md:text-5xl">
                         {"About the project"}
-                     </h1>
-                     <h1 className="text-lg md:text-xl mt-[10px]">
+                    </h1>
+                    <h1 className="text-lg md:text-xl mt-[50px]">
                         {"This is my portfolio! I used React, HTML, Tailwind CSS, and Next.js to create a dynamic site that suits both desktop and mobile devices! "}
                         <br></br>
                         {"The most notable feature between desktop and mobile is the navigation bar. On mobile devices, you get a hamburger menu where the two top buns"}
@@ -132,7 +132,7 @@ const PortfolioPage = () => {
                         <br></br>
                         <br></br>
                         {"I hope you can learn a little more about me and my projects and make sure to contact me for any software engineer opportunities!"}
-                     </h1>
+                    </h1>
                 </div>
             </div>
         </div>

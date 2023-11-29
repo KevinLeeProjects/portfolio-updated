@@ -67,12 +67,30 @@ const SpotifyClonePage = () => {
                         <FaArrowRight className="text-white hover:cursor-pointer hover:text-[#B19CD9]" size={36} onClick={nextImage}/>
                     </div>
                 </div>
-                <a href="https://github.com/KevinLeeProjects/spotify-clone" className="flex flex-col items-center justify-center border py-2 px-5 rounded-lg mt-[30px]">
+                <a href="https://github.com/KevinLeeProjects/spotify-clone" className="flex flex-col items-center justify-center border py-2 px-5 rounded-lg mt-[30px] hover:bg-[#483D8B]">
                     <FaGithub size={36} className="text-white mt-[20px]"/>
                     <h1 className="text-white text-lg mt-[10px]">
                         {"GitHub"}
                     </h1>
                 </a>
+                <div className="w-[75vw] md:w-[50vw] flex flex-col items-center text-start text-white mt-[50px] md:mt-[100px] pb-[100px]">
+                <h1 className="font-bold text-3xl md:text-5xl">
+                        {"About the project"}
+                    </h1>
+                    <h1 className="text-lg md:text-xl mt-[50px]">
+                        {"This is my spotify clone! I used React, HTML, Tailwind CSS, and Next.js to create a dynamic site that suits both desktop and mobile devices! "}
+                        {"I developed a complete music streaming application from scratch, replicating the popular features and functionalities of Spotify, including the ability to play music, like songs, and search songs."}
+                        <br></br>
+                        {""}
+                        <br></br>
+                        <br></br>
+                        {"I also created a backend with Supabase to manage all of my projects. "}
+                        {"I set up my Supabase project, createed database schemas, and implemented authentication, ensuring secure user registration and login processes."}
+                        <br></br>
+                        <br></br>
+                        {"Additionally, I integrated Stripe to enable premium subscriptions within my Spotify clone. My app handles transactions, securely manages user billing information, and provides a seamless payment experience."}
+                    </h1>
+                </div>
             </div>
         </div>
     );

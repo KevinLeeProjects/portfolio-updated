@@ -116,7 +116,7 @@ const AboutMePage = () => {
                     ">
                         <h4 className="">
                             <span>{"Hi! I'm Kevin and I'm a full stack software engineer!"} 
-                            {"I'm an avid gamer and programmer who likes to read and listen to music in my free time."}</span></h4>
+                            {" I'm an avid gamer and programmer who likes to read and listen to music in my free time."}</span></h4>
                         <br></br>
                         <h4 className="">
                             <span>{"I have experience using a variety of languages, frameworks, and tools. "}
