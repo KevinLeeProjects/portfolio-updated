@@ -39,7 +39,7 @@ const GamesPage = () => {
                     w-[50vw]
                     text-center
                 ">
-                    <TextAndStar  text="These are my projects! More info can be found by clicking on them" title={false}/>
+                    <TextAndStar  text="These projects are just for fun and are not up to standard - at all. Please enjoy the goofy graphics and don't take them too seriously." title={false}/>
                 </div>
                 <div className="
                     grid
@@ -49,7 +49,7 @@ const GamesPage = () => {
                     mb-[40px]
                 ">
                     {games.map((items) => (
-                        <ProjectBubble key={items.title} desktop={true} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/projects/${items.href}`}/>
+                        <ProjectBubble key={items.title} desktop={true} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/games/${items.href}`}/>
                     ))}
                 </div>
             </div>
@@ -91,7 +91,7 @@ const GamesPage = () => {
                         text-white
                         text-lg
                     ">
-                        {"These are my projects! More info can be found by clicking on them"}
+                        {"These projects are just for fun and are not up to standard - at all. Please enjoy the goofy graphics and don't take them too seriously."}
                     </h1>
                     <div>
                         <Star mobile={true}/>
@@ -106,7 +106,7 @@ const GamesPage = () => {
                     mb-[40px]
                 ">
                     {games.map((items) => (
-                        <ProjectBubble key={items.title} desktop={false} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/projects/${items.href}`}/>
+                        <ProjectBubble key={items.title} desktop={false} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/games/${items.href}`}/>
                     ))}
                 </div>
             </div>

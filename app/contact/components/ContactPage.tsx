@@ -31,6 +31,7 @@ const ContactPage = () => {
             w-[100vw]
             h-[100vh]
             overflow-x-hidden
+            overflow-y-auto
         ">
 
             {/* Desktop */}
