@@ -36,7 +36,7 @@ const GamesPage = () => {
                     {"Games"}
                 </h1>
                 <div className="
-                    w-[50vw]
+                    w-[90vw]
                     text-center
                 ">
                     <TextAndStar  text="These projects are just for fun and are not up to standard - at all. Please enjoy the goofy graphics and don't take them too seriously." title={false}/>
