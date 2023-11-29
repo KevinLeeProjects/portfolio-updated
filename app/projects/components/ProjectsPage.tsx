@@ -6,7 +6,7 @@ import Star from "@/components/Star";
 const projects = [
     {title: "Portfolio", imgSrc: "/images/portfolio/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "C#", "ASP .NET", "RESTful API"], href: "/portfolio"},
     {title: "Spotify-Clone", imgSrc: "/images/spotify/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Supabase", "Stripe API", "RESTful API", "PostgreSQL"], href: "/spotify-clone"},
-    {title: "Instagram-Clone (Coming Soon)", imgSrc: "", skills: ["HTML", "React Native", "Firebase Firestore", "Redux", "Expo"], href: "/instagram-clone"},
+    {title: "Instagram-Clone (Coming Soon)", imgSrc: "", skills: ["HTML", "CSS", "JavaScript", "React Native", "Firebase Firestore", "Redux", "Expo"], href: "/instagram-clone"},
     {title: "Library Management System", imgSrc: "/images/LMS/MainPage.png", skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "RESTful API", "PostgreSQL"], href: "/library-management-system"}
 
 ]
