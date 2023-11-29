@@ -43,12 +43,12 @@ const AboutMePage = () => {
                     ">
                         <h4 className="">
                             <span>{"Hi! I'm Kevin and I'm a full stack software engineer!"} 
-                            {"I'm an avid gamer and programmer who likes to read and listen to music in my free time."}</span></h4>
+                            {" I'm an avid gamer and programmer who likes to read and listen to music in my free time."}</span></h4>
                         <br></br>
                         <h4 className="">
-                            <span>{"I have experience using a variety of languages, frameworks, and tools."} 
-                            {"I started programming by making games as a hobby and have since gone into web development and software engineering in general."}
-                            {"I have the most experience using "}<span className="text-blue-400">{"HTML, CSS, JavaScript, React, Next.js, Tailwind, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!"}</span></span>
+                            <span>{" I have experience using a variety of languages, frameworks, and tools."} 
+                            {" I started programming by making games as a hobby and have since gone into web development and software engineering in general."}
+                            {" I have the most experience using "}<span className="text-blue-400">{"HTML, CSS, JavaScript, React, Next.js, Tailwind, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!"}</span></span>
                         </h4>
                         <br></br>
                         <h4 className="">
@@ -119,9 +119,9 @@ const AboutMePage = () => {
                             {" I'm an avid gamer and programmer who likes to read and listen to music in my free time."}</span></h4>
                         <br></br>
                         <h4 className="">
-                            <span>{"I have experience using a variety of languages, frameworks, and tools. "}
-                            {"I started programming by making games as a hobby and have since gone into web development and software engineering in general."}
-                            {"I have the most experience using "}<span className="text-blue-400">{"HTML, CSS, JavaScript, React.js, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!"}</span></span>
+                            <span>{" I have experience using a variety of languages, frameworks, and tools. "}
+                            {" I started programming by making games as a hobby and have since gone into web development and software engineering in general."}
+                            {" I have the most experience using "}<span className="text-blue-400">{"HTML, CSS, JavaScript, React.js, C#, ASP .NET, Node.js, PostgreSQL, C++, Java, Django, and Python!"}</span></span>
                         </h4>
                         <br></br>
                         <h4 className="">
