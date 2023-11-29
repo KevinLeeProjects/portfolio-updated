@@ -1,19 +1,15 @@
 import TextAndStar from "@/components/TextAndStar";
 import ProjectBubble from "../../../components/ProjectBubble";
-import TextAndStarMobile from "@/components/TextAndStarMobile";
 import Star from "@/components/Star";
 
-const projects = [
-    {title: "Portfolio", imgSrc: "/images/portfolio/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "C#", "ASP .NET", "RESTful API"], href: "/portfolio"},
-    {title: "Spotify-Clone", imgSrc: "/images/spotify/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Supabase", "Stripe API", "RESTful API", "PostgreSQL"], href: "/spotify-clone"},
-    {title: "Instagram-Clone (Coming Soon)", imgSrc: "", skills: ["HTML", "React Native", "Firebase Firestore", "Redux", "Expo"], href: "/instagram-clone"},
-    {title: "Library Management System", imgSrc: "/images/LMS/MainPage.png", skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "RESTful API", "PostgreSQL"], href: "/library-management-system"}
-
+const games = [
+    {title: "Night Terrors", imgSrc: "/images/nightTerrors/Monster.png", skills: ["C#", "Unity", "Photon Pun", "Firebase Database", "Firebase Auth"], href: "/night-terrors"},
+    {title: "Portals of Power", imgSrc: "/images/portalsOfPower/Shoot.png", skills: ["C++", "Unreal Engine 5", "Firebase Database", "Firebase Auth", "AWS GameLift", "RESTful API"], href: "/portals-of-power"}
 ]
 
-const ProjectsPage = () => {
+const GamesPage = () => {
     return (
-        <div className="
+<div className="
             h-[100dvh]
             overflow-y-auto
             overflow-x-hidden
@@ -37,7 +33,7 @@ const ProjectsPage = () => {
                     text-white
                     mt-[20px]
                 ">
-                    Notable Projects
+                    {"Games"}
                 </h1>
                 <div className="
                     w-[50vw]
@@ -52,7 +48,7 @@ const ProjectsPage = () => {
                     mt-[10dvh]
                     mb-[40px]
                 ">
-                    {projects.map((items) => (
+                    {games.map((items) => (
                         <ProjectBubble key={items.title} desktop={true} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/projects/${items.href}`}/>
                     ))}
                 </div>
@@ -77,7 +73,7 @@ const ProjectsPage = () => {
                     text-white
                     mt-[20px]
                 ">
-                    Notable Projects
+                    {"Games"}
                 </h1>
                 <div className="
                     w-[95vw]
@@ -109,7 +105,7 @@ const ProjectsPage = () => {
                     mt-[10dvh]
                     mb-[40px]
                 ">
-                    {projects.map((items) => (
+                    {games.map((items) => (
                         <ProjectBubble key={items.title} desktop={false} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/projects/${items.href}`}/>
                     ))}
                 </div>
@@ -118,4 +114,4 @@ const ProjectsPage = () => {
     );
 };
 
-export default ProjectsPage;
+export default GamesPage;

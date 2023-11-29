@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { FaGithub, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-import SkillBubble from "../../components/SkillBubble";
+import SkillBubble from "../../../../components/SkillBubble";
 import TextAndStar from "@/components/TextAndStar";
 import TextAndStarMobile from "@/components/TextAndStarMobile";
 
