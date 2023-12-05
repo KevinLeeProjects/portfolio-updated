@@ -110,7 +110,7 @@ const ProjectsPage = () => {
                     mb-[40px]
                 ">
                     {projects.map((items) => (
-                        <ProjectBubble key={items.title} desktop={false} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/projects/${items.href}`}/>
+                        <ProjectBubble key={items.title} desktop={false} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`${items.href}`}/>
                     ))}
                 </div>
             </div>
