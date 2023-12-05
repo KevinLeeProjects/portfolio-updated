@@ -8,6 +8,9 @@ const NightTerrorsPage = () => {
             <br></br>
             <br></br>
             {"This game was made in C# with Unity. I used Firebase Database and Firebase Auth to create a secure login and save system. Multiplayer functions were created with Photon Pun."}
+            <br></br>
+            <br></br>
+            {"Art credit: @byyy.nathan and @hallokyree on Instagram"}
         </h1>
     );
 };
