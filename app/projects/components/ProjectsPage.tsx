@@ -4,10 +4,10 @@ import TextAndStarMobile from "@/components/TextAndStarMobile";
 import Star from "@/components/Star";
 
 const projects = [
-    {title: "Portfolio", imgSrc: "/images/portfolio/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "C#", "ASP .NET", "RESTful API"], href: "/portfolio"},
-    {title: "Spotify-Clone", imgSrc: "/images/spotify/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Supabase", "Stripe API", "RESTful API", "PostgreSQL"], href: "/spotify-clone"},
-    {title: "Instagram-Clone (Coming Soon)", imgSrc: "", skills: ["HTML", "CSS", "JavaScript", "React Native", "Firebase Firestore", "Redux", "Expo"], href: "/instagram-clone"},
-    {title: "Library Management System", imgSrc: "/images/LMS/MainPage.png", skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "RESTful API", "PostgreSQL"], href: "/library-management-system"}
+    {title: "Portfolio", imgSrc: "/images/portfolio/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "C#", "ASP .NET", "RESTful API"], href: "/projects/portfolio"},
+    {title: "Spotify-Clone", imgSrc: "/images/spotify/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Supabase", "Stripe API", "RESTful API", "PostgreSQL"], href: "/projects/spotify-clone"},
+    {title: "Instagram-Clone (Coming Soon)", imgSrc: "", skills: ["HTML", "CSS", "JavaScript", "React Native", "Firebase Firestore", "Redux", "Expo"], href: "https://github.com/KevinLeeProjects/instagram-clone"},
+    {title: "Library Management System", imgSrc: "/images/LMS/MainPage.png", skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "RESTful API", "PostgreSQL"], href: "/projects/library-management-system"}
 
 ]
 
@@ -53,7 +53,7 @@ const ProjectsPage = () => {
                     mb-[40px]
                 ">
                     {projects.map((items) => (
-                        <ProjectBubble key={items.title} desktop={true} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`/projects/${items.href}`}/>
+                        <ProjectBubble key={items.title} desktop={true} imgSrc={items.imgSrc} title={items.title} skills={items.skills} href={`${items.href}`}/>
                     ))}
                 </div>
             </div>
