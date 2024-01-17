@@ -6,8 +6,9 @@ import Star from "@/components/Star";
 const projects = [
     {title: "Portfolio", imgSrc: "/images/portfolio/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "C#", "ASP .NET", "RESTful API"], href: "/projects/portfolio"},
     {title: "Spotify-Clone", imgSrc: "/images/spotify/Main.png", skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Supabase", "Stripe API", "RESTful API", "PostgreSQL"], href: "/projects/spotify-clone"},
-    {title: "Instagram-Clone (Coming Soon)", imgSrc: "", skills: ["HTML", "CSS", "JavaScript", "React Native", "Firebase Firestore", "Redux", "Expo"], href: "https://github.com/KevinLeeProjects/instagram-clone"},
-    {title: "Library Management System", imgSrc: "/images/LMS/MainPage.png", skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "RESTful API", "PostgreSQL"], href: "/projects/library-management-system"}
+    {title: "Owting (Coming Soon)", imgSrc: "/images/owting/owting-home-page.png", skills: ["HTML", "CSS", "JavaScript", "TypeScript", "React Native", "Expo"], href: "/projects/owting"},
+    {title: "NutriBytez", imgSrc:"", skills:["React Native and ReactJS", "HTML", "CSS", "Tailwind", "JavaScript", "TypeScript", "C#", "ASP .NET", "PostgreSQL", "RESTful API"], href: "projects/nutriBytez"},
+    {title: "Library Management System", imgSrc: "/images/LMS/MainPage.png", skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "RESTful API", "PostgreSQL"], href: "/projects/library-management-system"},
 
 ]
 
